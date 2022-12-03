@@ -1,0 +1,326 @@
+/* ==UserStyle==
+@name           dark aeza
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Aeza dark
+@author         cofob
+==/UserStyle== */
+
+@-moz-document domain("my.aeza.net") {
+    :root {
+        --rich-dark: #1f2022;
+        --rich-hover: #2c2d30;
+        --rich-pressed: #babfd1;
+
+        --v-anchor-base: #fff;
+        --v-primary-base: #fff;
+        --v-primary-lighten5: #777777;
+        --v-primary-lighten4: #5e5e5e;
+        --v-primary-lighten3: #474747;
+        --v-primary-lighten2: #303030;
+        --v-primary-lighten1: #1b1b1b;
+        --v-primary-darken1: #000000;
+        --v-primary-darken2: #000000;
+        --v-primary-darken3: #000000;
+        --v-primary-darken4: #000000;
+        --v-secondary-base: #424242;
+        --v-secondary-lighten5: #c1c1c1;
+        --v-secondary-lighten4: #a6a6a6;
+        --v-secondary-lighten3: #8b8b8b;
+        --v-secondary-lighten2: #727272;
+        --v-secondary-lighten1: #595959;
+        --v-secondary-darken1: #2c2c2c;
+        --v-secondary-darken2: #171717;
+        --v-secondary-darken3: #000000;
+        --v-secondary-darken4: #000000;
+        --v-accent-base: #82b1ff;
+        --v-accent-lighten5: #ffffff;
+        --v-accent-lighten4: #f8ffff;
+        --v-accent-lighten3: #daffff;
+        --v-accent-lighten2: #bce8ff;
+        --v-accent-lighten1: #9fccff;
+        --v-accent-darken1: #6596e2;
+        --v-accent-darken2: #467dc6;
+        --v-accent-darken3: #2364aa;
+        --v-accent-darken4: #004c90;
+        --v-error-base: #ff5252;
+        --v-error-lighten5: #ffe4d5;
+        --v-error-lighten4: #ffc6b9;
+        --v-error-lighten3: #ffa99e;
+        --v-error-lighten2: #ff8c84;
+        --v-error-lighten1: #ff6f6a;
+        --v-error-darken1: #df323b;
+        --v-error-darken2: #bf0025;
+        --v-error-darken3: #9f0010;
+        --v-error-darken4: #800000;
+        --v-info-base: #2196f3;
+        --v-info-lighten5: #d4ffff;
+        --v-info-lighten4: #b5ffff;
+        --v-info-lighten3: #95e8ff;
+        --v-info-lighten2: #75ccff;
+        --v-info-lighten1: #51b0ff;
+        --v-info-darken1: #007cd6;
+        --v-info-darken2: #0064ba;
+        --v-info-darken3: #004d9f;
+        --v-info-darken4: #003784;
+        --v-success-base: #4caf50;
+        --v-success-lighten5: #dcffd6;
+        --v-success-lighten4: #beffba;
+        --v-success-lighten3: #a2ff9e;
+        --v-success-lighten2: #85e783;
+        --v-success-lighten1: #69cb69;
+        --v-success-darken1: #2d9437;
+        --v-success-darken2: #00791e;
+        --v-success-darken3: #006000;
+        --v-success-darken4: #004700;
+        --v-warning-base: #fb8c00;
+        --v-warning-lighten5: #ffff9e;
+        --v-warning-lighten4: #fffb82;
+        --v-warning-lighten3: #ffdf67;
+        --v-warning-lighten2: #ffc24b;
+        --v-warning-lighten1: #ffa72d;
+        --v-warning-darken1: #db7200;
+        --v-warning-darken2: #bb5900;
+        --v-warning-darken3: #9d4000;
+        --v-warning-darken4: #802700;
+        --v-sheets-base: #404040;
+        --v-sheets-lighten5: #ffffff;
+        --v-sheets-lighten4: #ffffff;
+        --v-sheets-lighten3: #ffffff;
+        --v-sheets-lighten2: #ffffff;
+        --v-sheets-lighten1: #ffffff;
+        --v-sheets-darken1: #d8d8d8;
+        --v-sheets-darken2: #bcbcbc;
+        --v-sheets-darken3: #a1a1a1;
+        --v-sheets-darken4: #878787;
+    }
+
+    div#inspire {
+        --aeza-color-background: var(--rich-dark);
+        --aeza-color-pressed: var(--rich-pressed);
+        --aeza-color-error: #ff003d;
+        --aeza-color-orange: #ff7a00;
+        --aeza-color-green: #71d888;
+        --aeza-color-hover: rgba(0, 0, 0, 0.1);
+        --aeza-color-primary: #fff;
+        --aeza-color-secondary: #8e8e8e;
+        --aeza-color-input: #f4f4f4;
+    }
+
+    html {
+        background-color: var(--rich-dark) !important;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .theme--light.v-card {
+        color: #fff !important;
+    }
+
+    .text--primary > div {
+        color: #d3d3d3 !important;
+    }
+
+    .text--primary > p {
+        color: #d3d3d3 !important;
+    }
+
+    div.col > span {
+        color: #fff;
+    }
+
+    .plans-table__param-name {
+        color: #fff !important;
+    }
+
+    .plan__name {
+        color: #c2c2c2 !important;
+    }
+
+    .plan__price {
+        color: #fff !important;
+    }
+
+    .plans-table__param-description {
+        color: #cacaca !important;
+    }
+
+    .theme--light.v-application {
+        color: #fff;
+    }
+
+    input {
+        background-color: var(--rich-dark) !important;
+        color: #fff;
+    }
+
+    .product-card {
+        border-color: #444 !important;
+    }
+
+    .product-title {
+        color: #fff !important;
+    }
+
+    .product-param__name {
+        color: #d7d7d7 !important;
+    }
+
+    .card {
+        background: #262626 !important;
+    }
+
+    .os-name {
+        color: #fff !important;
+    }
+
+    .current-version {
+        color: #fff !important;
+    }
+
+    .order__header {
+        color: #fff !important;
+    }
+
+    .product-name {
+        color: #fff !important;
+    }
+
+    .price {
+        color: #fff !important;
+    }
+
+    .alert-text {
+        color: #1f2022 !important;
+    }
+
+    .v-tab {
+        color: #fff;
+    }
+
+    .aeza-card > p {
+        color: #fff !important;
+    }
+
+    .progress-bar__text {
+        color: #fff !important;
+    }
+
+    .card-stat {
+        color: #fff !important;
+    }
+
+    .manager-container {
+        color: #fff !important;
+    }
+
+    td {
+        color: #fff !important;
+    }
+
+    .copyable-input {
+        background: #2b2929 !important;
+    }
+
+    .progress-bar__line {
+        background: rgb(38, 38, 38) !important;
+    }
+
+    .location {
+        background: #262626 !important;
+    }
+
+    .product-card_active {
+        background: #262626 !important;
+    }
+
+    .tab-wrapper {
+        background: #262626 !important;
+    }
+
+    .v-slide-group__content {
+        background: #262626 !important;
+    }
+
+    .container {
+        background: #262626 !important;
+    }
+
+    .v-list {
+        background: #262626 !important;
+        color: #fff !important;
+    }
+
+    .v-list-item__title {
+        color: #fff !important;
+    }
+
+    .v-slide-group__content > .v-tab {
+        color: #fff !important;
+    }
+
+    .balance-card__number {
+        color: #fff;
+    }
+
+    .services-table > .v-data-table__wrapper {
+        box-shadow: 0 0 0 2px #3c3c3c;
+        background: #464646 !important;
+    }
+
+    .services-table > .v-data-table__wrapper > table > tbody > tr > td {
+        border-bottom: 2px solid #595959 !important;
+        color: #fff;
+    }
+
+    th.text-start:hover {
+        color: #777 !important;
+    }
+
+    .tab {
+        color: #fff !important;
+    }
+
+    .tab_active {
+        color: #fff !important;
+        border-color: #939393 !important;
+    }
+
+    .header-button {
+        background-color: #333 !important;
+    }
+
+    .aeza-card {
+        background: #313131;
+    }
+
+    .settings-param {
+        color: #fff !important;
+    }
+
+    .link {
+        color: #fff;
+    }
+
+    .button-group__button {
+        background-color: #333 !important;
+    }
+
+    .preloader {
+        background: var(--rich-dark);
+    }
+
+    .preloader__header {
+        color: #fff;
+    }
+
+    .pr-s > circle {
+        stroke: rgb(255, 255, 255);
+    }
+
+    body {
+        background: var(--rich-gray);
+    }
+}
